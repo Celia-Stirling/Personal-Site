@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #E36387
+}
+
+/*** Introduction ***/
+
+#introduction {
+    background-color: #DDF3F5;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    position: relative;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#blue-bird {
+    width: 100px;
+    height: auto;
+    display: block;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+}
+
+#tree {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#pink-bird {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 350px;
+}
+
+.pink-bar {
+    height: 100px;
+    background-color: #E36387;
+}
+
+/****** Middle Container *****/
+
+.profile {
+    margin-top: 20px;
+}
+
+#celia {
+    width: 14%;
+    height: auto;
+    margin: 20px;
+}
+
+#about-me {
+    margin: 20px auto 50px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+hr {
+    border-top: 8px dotted #A6DCEF;
+    width: 15%;
+    margin: 0 auto 0 auto;
+}
+
+.skills {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-logo {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.garden-logo {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    padding: 20px;
+}
+
+.contact-me h3 {
+    padding: 20px;
+}
+
+.contact-me p {
+    padding-bottom: 40px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #E36387;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .btn:hover {
+    background: #A6DCEF;
+    border: solid #FFFFFF 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+/****** Bottom Container *****/
+
+.bottom-container {
+    background-color: #E36387;
+    padding: 20px;
+}
+
+.footer-link{
+    margin: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-link:hover {
+    color: #A6DCEF;
+}
+
+.copyright {
+    margin: 20px;
+}
